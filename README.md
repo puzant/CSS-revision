@@ -36,6 +36,16 @@
 | inherit                | Inherits this property from its parent element |
 
 
+## Position
+
+- There are 5 different position values in CSS
+1.  Static
+2.  Relative
+3.  Fixed
+4.  Absolute
+5.  Sticky
+
+> The elements are positioned using `top`, `bottom`, `left`, `right` properties, however these properties will not work unless the `position` property is set first.
 
 ## Selectors
 
