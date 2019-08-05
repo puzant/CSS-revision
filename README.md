@@ -63,3 +63,29 @@
 6. `[class*="chair"]` class contains chair
 7. `[class$="chair"]` class ends with chair
 8. `input[type="button"]` select an input with type button
+
+
+## Display
+
+- There are 23 different display properties in CSS
+
+> not all these props are used, some of them are very old
+
+| Display                | Description   | 
+| ---------------------  |:-------------:|
+| inline                 | right-aligned |
+| block                  | centered      |
+| contents               | are neat      |
+| flex                   |               |
+| grid                   |               |
+| inline-block           |               |
+| inline-flex            |               |
+| inline-grid            |               |
+| inline-table           |               |
+| list-item              |               |
+| run-in                 |               |
+| table                  |               |
+| table-caption          |               |
+| table-column-group     |               |
+| flex                   |               |
+| flex                   |               |
