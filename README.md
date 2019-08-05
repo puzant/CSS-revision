@@ -3,6 +3,20 @@
 
 # Everything about CSS
 
+**This Repo will cover all the basic & advanced topics in CSS, we will be covering:**
+
+1. Display
+2. breakdown of each of display property (flex - grid - inline - inline-block) with examples
+3. Positions
+4. Selectors
+5. Box model
+6. Tables
+7. Transitions
+8. Animations
+9. Media Queries
+10. CSS semantics
+11. naming conventions (BEM - prefix naming) 
+
 ## Display
 
 - There are 23 different display properties in CSS
