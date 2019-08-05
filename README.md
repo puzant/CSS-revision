@@ -75,27 +75,27 @@
 | ---------------------  |:-------------:|
 | inline                 | Displays an element as an inline element (like `<span>`). <br> Any height and width properties will have no effect |
 | block                  | Displays an element as a block element (like `<p>`).<br> It starts on a new line, and takes up the whole width |
-| contents               |               |
-| flex                   |               |
-| grid                   |               |
-| inline-block           |               |
-| inline-flex            |               |
-| inline-grid            |               |
-| inline-table           |               |
-| list-item              |               |
-| run-in                 |               |
-| table                  |               |
-| table-caption          |               |
-| table-column-group     |               |
-| table-header-group     |               |
-| table-footer-group     |               |
-| table-row-group        |               |
-| table-cell             |               |
-| table-column           |               |
-| table-row              |               |
-| none                   |               |
-| initial                |               |
-| inherit                |               |
+| contents               | Makes the container disappear, making the child elements children <br> of the element the next level up in the DOM|
+| flex                   | Displays an element as a block-level flex container|
+| grid                   | Displays an element as a block-level grid container	|
+| inline-block           | Displays an element as an inline-level block container. The element itself <br> is formatted as an inline element, but you can apply height and width values |
+| inline-flex            | Displays an element as an inline-level flex container |
+| inline-grid            | Displays an element as an inline-level grid container |
+| inline-table           | The element is displayed as an inline-level table |
+| list-item              | Let the element behave like a `<li>` element |
+| run-in                 | Displays an element as either block or inline, depending on context |
+| table                  | Let the element behave like a `<table>` element |
+| table-caption          | Let the element behave like a `<caption>` element |
+| table-column-group     | Let the element behave like a `<colgroup>` element |
+| table-header-group     | Let the element behave like a `<thead>` element |
+| table-footer-group     | Let the element behave like a `<tfoot>` element |
+| table-row-group        | Let the element behave like a `<tbody>` element |
+| table-cell             | Let the element behave like a `<td>` element |
+| table-column           | Let the element behave like a `<col>` element |
+| table-row              | 	Let the element behave like a `<tr>` element |
+| none                   | The element is completely removed |
+| initial                | Sets this property to its default value |
+| inherit                | Inherits this property from its parent element |
 
 
 
