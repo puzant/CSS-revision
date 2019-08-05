@@ -1,5 +1,5 @@
 
-![css image](assets/css.png)
+![css image](Assets/css.png)
 
 # Everything about CSS
 
