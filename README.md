@@ -1,3 +1,5 @@
+![jsInfo image](assets/CSS3_logo_and_wordmark.png)
+
 # Everything about CSS
 
 ## Selectors
