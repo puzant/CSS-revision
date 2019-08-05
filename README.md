@@ -73,9 +73,9 @@
 
 | Display                | Description   | 
 | ---------------------  |:-------------:|
-| inline                 | right-aligned |
-| block                  | centered      |
-| contents               | are neat      |
+| inline                 | Displays an element as an inline element (like `<span>`). <br> Any height and width properties will have no effect |
+| block                  | Displays an element as a block element (like `<p>`).<br> It starts on a new line, and takes up the whole width |
+| contents               |               |
 | flex                   |               |
 | grid                   |               |
 | inline-block           |               |
@@ -87,5 +87,15 @@
 | table                  |               |
 | table-caption          |               |
 | table-column-group     |               |
-| flex                   |               |
-| flex                   |               |
+| table-header-group     |               |
+| table-footer-group     |               |
+| table-row-group        |               |
+| table-cell             |               |
+| table-column           |               |
+| table-row              |               |
+| none                   |               |
+| initial                |               |
+| inherit                |               |
+
+
+
