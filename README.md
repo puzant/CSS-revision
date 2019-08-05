@@ -1,4 +1,5 @@
-![jsInfo image](assets/CSS3_logo_and_wordmark.png)
+
+![css image](assets/css.png)
 
 # Everything about CSS
 
