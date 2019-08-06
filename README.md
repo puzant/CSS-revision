@@ -81,6 +81,22 @@ the element wrap to a new line
 }
 ```
 
+- `flex-flow`: this is a shorthand for `flex-direction` & `flex-wrap`, the default value is: `row nowrap`
+```
+.container {
+  flex-flow: column wrap
+}
+```
+
+- `justify-content`: defines the alignment along the main axis
+
+- there are 5 values for this property:
+1. `flex-strat`: itemes are aligned to the start line 
+2. `flex-end`: itemes are aligned towards the end line 
+3. `center`: itemes are aligned to the center 
+4. `space-between`: items are evenly distributed in the line
+5. `space-around`: items are evenly distributed in the line with equal spaces around them
+6. `space-evenly`: items are distributed so that spacing between any two items is equal
 
 
 ## Position
