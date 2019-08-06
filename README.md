@@ -49,6 +49,39 @@
 | initial                | Sets this property to its default value |
 | inherit                | Inherits this property from its parent element |
 
+### Flex display property
+
+#### Properties for the Parent
+
+- `Display: flex`, defined a flex container, enabling flex context for all the children
+```
+.container {
+  display: flex;
+}
+```
+
+- `flex-direction: row | row-reverse | column | column-reverse`, specify the main axis, flex items can be
+
+aligned either in horizontal rows or vertical columns 
+``` 
+.container {
+  flex-direction: row;  //  align items in horzontal row
+}
+```
+- `flex-wrap: wrap | nowrap | wrap-reverse`, flex items will try to fit in one line, `flex-wrap` makes
+the element wrap to a new line
+
+- `nowrap`: elements will be on the same line
+- `wrap`: elements will be wrap into multiple lines
+- `wrap-reverse`: similiar to `wrap` but from bottom to top
+
+```
+.container {
+  flex-wrap: wrap
+}
+```
+
+
 
 ## Position
 
