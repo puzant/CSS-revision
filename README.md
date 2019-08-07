@@ -89,7 +89,7 @@ the element wrap to a new line
 ```
 
 - `justify-content`: defines the alignment along the main axis
-- there are 5 values for this property:
+> there are 5 values for this property:
 1. `flex-strat`: itemes are aligned to the start line 
 2. `flex-end`: itemes are aligned towards the end line 
 3. `center`: itemes are aligned to the center 
@@ -99,15 +99,15 @@ the element wrap to a new line
 
 
 - `align-items`: define the default behavior for how flex items are laid along the cross axis on the current line
-there are 6 values for the property
+> there are 6 values for the property
 1. `stretch`: stretch to fill the container
 2. `flex-start`: cross-start margin edge of the item is placed on the cross start line
 3. `flex-end`: cross-end margin edge of the itme is placed on the cross-end line 
 4. `center`: items are centered in the cross-axis
 5. `baseline`: items are aligned such as thier baselines align 
 
--`align-content`: align's flex container's lines within when there an extra space in the cross axis
-there are 5 values for the property
+- `align-content`: align's flex container's lines within when there an extra space in the cross axis
+> there are 5 values for the property
 1. `flex-start`: lines are packed to the start of the container 
 2. `flex-end`: lines are packed to the end of the container 
 3. `center`: lines are packed to the center
