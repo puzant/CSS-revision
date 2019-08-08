@@ -51,7 +51,7 @@
 
 ### Flex display property
 
-#### Properties for the Parent
+#### Properties for the Parent(Flex container)
 
 - `Display: flex`, defined a flex container, enabling flex context for all the children
 ```
@@ -114,6 +114,59 @@ the element wrap to a new line
 4. `space-between`: lines are evenly distributed, the first line is in start of the container, last line is at the end
 5. `space-around`: lines evenly distributed with equal space around each line
 6. `stretch`: lines stretch to take up the remaning space 
+
+
+#### Properties for the Children(Flex items)
+- `order`: by default flex items are laid out in source order
+
+```
+.flex-item {
+  order: <integer> // default is 0
+}
+```
+
+- `flex-grow`: defined the ability for a flex item to grow if necessary
+
+> if all items have `flex-grow` set to 1, the remaning space in the container will be distributed equally
+```
+.flex-item {
+  flex-grow: <number> //  default is 0
+}
+```
+
+- `flex-shrink`: defines the ability for a flex item tow shrink if necessary
+
+> negative numbers are invalid
+
+```
+.flex-item {
+  flex-shrink: <number> //  default is 1
+}
+```
+
+- `flex-basis`: defines the default size of an element before the remaning space is distributed
+
+```
+.flex-item {
+  flex-basis: <length> | auto
+}
+```
+
+- `flex`: this is a shorthand for `flex-grow` & `flex-shrink` & `flex-basis` combined, the second & third parameters are optional, default is 0
+
+```
+.flex-item {
+  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+}
+```
+
+- `align-self`: this allows the default alignment to be overriden for individual flex-items
+
+```
+.flex-item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch
+}
+```
 
 
 ## Position
