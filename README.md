@@ -127,3 +127,23 @@
 8. `input[type="button"]` select an input with type button
 
 
+## Box model
+the `CSS` box model is the foundation of layout on the WEB, each element is represented as a rectangular box, with the box's content, padding border & margin built up around one another like a layer
+
+- Explanation of the different parts
+1. Content: The content of the box, where text & images appear
+2. Padding: clears an area around the content, the padding is transparent 
+3. Border: A border that goes around the padding & the content
+4. Margin: Clears an area outside the border. the margin is transparent
+
+- What values are assigned to box model properties 
+1. `%`: A block width such as `50%`
+2. `em`: The computed height value of the element's font size 
+3. `ex`: the height of the charecter `X` also known as the font's x-height
+4. `rem`: The font-size of `<html>` which avoids inheritance issues with `em`.
+5. `vw`: A percentage of the viewport’s width.
+6. `vh`: A percentage of the viewport’s height.
+7. `vm`: The smaller value of vw and vh.
+8. `px`: CSS pixels.
+9. `cm`: Centimeters.
+10. `mm`: Millimeters.
